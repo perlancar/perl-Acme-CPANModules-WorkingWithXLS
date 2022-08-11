@@ -23,7 +23,8 @@ The following are tools (programs, modules, scripts) to work with Excel formats
 (for reading XLS or XLSX, although Spreadsheet::XLSX is strongly discouraged
 because it is a quick-and-dirty hack). Spreadsheet::Read can also read CSV via
 Text::CSV_XS. The module can return information about cell's attributes
-(formatting, alignment, and so on), merged cells, etc.
+(formatting, alignment, and so on), merged cells, etc. The distribution of this
+module also comes with some CLIs like <prog:xlscat>, <prog:xlsx2csv>.
 
 
 **Getting information**
@@ -51,6 +52,10 @@ chunks of raw binary data.
 
 
 **Converting to CSV**
+
+<prog:xlsx2csv> from <pm:Spreadsheet::Read>. Since it's based on
+Spreadsheet::Read, it can read XLS/XLSX/ODS. It always outputs to file and not
+to stdout.
 
 `CATDOC` (<http://www.wagner.pp.ru/~vitus/software/catdoc/>) contains following
 the programs `catdoc` (to print the plain text of Microsoft Word documents to
