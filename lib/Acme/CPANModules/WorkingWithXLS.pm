@@ -26,6 +26,9 @@ Text::CSV_XS. The module can return information about cell's attributes
 (formatting, alignment, and so on), merged cells, etc. The distribution of this
 module also comes with some CLIs like <prog:xlscat>, <prog:xlsx2csv>.
 
+<pm:Data::XLSX::Parser> which claims to be a "faster XLSX parser". Haven't used
+this one personally or benchmarked it though.
+
 
 **Getting information**
 
