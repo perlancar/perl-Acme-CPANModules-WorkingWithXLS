@@ -1,6 +1,7 @@
 package Acme::CPANModules::WorkingWithXLS;
 
 use strict;
+
 use Acme::CPANModulesUtil::Misc;
 
 # AUTHORITY
@@ -77,7 +78,7 @@ TBD
 _
 
 our $LIST = {
-    summary => 'Working with Excel formats (XLS, XLSX) or other spreadsheet formats like LibreOffice Calc (ODS)',
+    summary => 'List of modules to work with Excel formats (XLS, XLSX) or other spreadsheet formats like LibreOffice Calc (ODS)',
     description => $text,
     tags => ['task'],
 };
