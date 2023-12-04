@@ -91,3 +91,5 @@ Acme::CPANModulesUtil::Misc::populate_entries_from_module_links_in_description;
 =head1 prepend:SEE ALSO
 
 L<Acme::CPANModules::WorkingWithCSV>
+
+L<Acme::CPANModules::WorkingWithDOC>
